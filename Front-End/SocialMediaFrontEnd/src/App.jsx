@@ -1,5 +1,6 @@
 import './App.css'
-import Grid from "./Tabs/Grid"
+import ModalPopUp from "./Tabs/ModalPopUp"
+import DashBoared from "./DashBoared/DashBoared"
 function App() {
 
   return (
@@ -7,9 +8,9 @@ function App() {
       <div>
         <h1>App Component</h1>
         <div className="uploadfileform">
-          
+          <DashBoared/>
           {/* <UploadForm/> */}
-          <Grid/>
+          <ModalPopUp/> 
         </div>
       </div>
     </>

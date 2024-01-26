@@ -111,6 +111,7 @@ function UploadForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Entered values are", inputvalues);
+    console.log("Submit button is clicked");
     // You can perform additional actions here, such as file upload.
   };
 
